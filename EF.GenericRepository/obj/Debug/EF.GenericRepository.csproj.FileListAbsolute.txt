@@ -1,0 +1,8 @@
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\obj\Debug\EF.GenericRepository.csprojResolveAssemblyReference.cache
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Debug\EF.GenericRepository.dll.config
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Debug\EF.GenericRepository.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Debug\EF.GenericRepository.pdb
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Debug\EntityFramework.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Debug\EntityFramework.xml
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\obj\Debug\EF.GenericRepository.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\obj\Debug\EF.GenericRepository.pdb

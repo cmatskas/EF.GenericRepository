@@ -1,0 +1,7 @@
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Release\EF.GenericRepository.dll.config
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Release\EF.GenericRepository.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Release\EF.GenericRepository.pdb
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Release\EntityFramework.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\bin\Release\EntityFramework.xml
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\obj\Release\EF.GenericRepository.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository\obj\Release\EF.GenericRepository.pdb
