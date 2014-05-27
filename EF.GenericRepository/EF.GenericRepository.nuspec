@@ -4,15 +4,13 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <authors>Christos Matskas</authors>
+    <owners>Christos Matskas</owners>
+    <projectUrl>https://github.com/cmatskas/EF.GenericRepository</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>An EntityFramework generic repository with graph management</description>
+    <releaseNotes>A first attempt to release an open source generic repository for EF</releaseNotes>
     <copyright>Copyright 2014</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>EntityFramework Repository Generic C#</tags>
   </metadata>
 </package>

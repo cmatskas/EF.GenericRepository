@@ -1,0 +1,11 @@
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EF.GenericRepository.Test.exe.config
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\obj\Debug\EF.GenericRepository.Test.csprojResolveAssemblyReference.cache
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EF.GenericRepository.Test.exe
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EF.GenericRepository.Test.pdb
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EF.GenericRepository.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EntityFramework.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EntityFramework.xml
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\obj\Debug\EF.GenericRepository.Test.exe
+C:\Users\christos.matskas\Documents\GitHub\EF.GenericRepository\EF.GenericRepository.Test\obj\Debug\EF.GenericRepository.Test.pdb

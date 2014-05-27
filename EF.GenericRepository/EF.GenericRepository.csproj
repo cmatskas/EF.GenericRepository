@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbContextExtension.cs" />
+    <Compile Include="EntityBase.cs" />
     <Compile Include="Enums\ObjectState.cs" />
     <Compile Include="Interfaces\IDbContext.cs" />
     <Compile Include="Interfaces\IObjectState.cs" />

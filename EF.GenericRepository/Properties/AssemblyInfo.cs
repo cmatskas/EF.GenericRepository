@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("EF.GenericRepository")]
 [assembly: AssemblyDescription("A generic repository implementation for Entity Framework with graph management.")]
 [assembly: AssemblyConfiguration("Christos Matskas")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Christos Matskas")]
 [assembly: AssemblyProduct("EF.GenericRepository")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
