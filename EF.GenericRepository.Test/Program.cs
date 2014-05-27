@@ -22,7 +22,7 @@
             Console.WriteLine(string.Empty);
 
             Console.WriteLine("[{0}] - Creating new property, without parent owner", DateTime.Now);
-            unitOfWork.Repository<Property>().InsertGraph(CreateTestProperty());
+            unitOfWork.Repository<Property>().Insert(CreateTestProperty());
             unitOfWork.Save();
             Console.WriteLine("[{0}] - Property created successfully", DateTime.Now);
             Console.WriteLine(string.Empty);
@@ -30,36 +30,47 @@
             Console.WriteLine("[{0}] - Creating new property, with parent owner", DateTime.Now);
             owner.State = ObjectState.Modified;
             var property = CreateTestProperty(owner);
-            unitOfWork.Repository<Property>().InsertGraph(property);
+            unitOfWork.Repository<Property>().Insert(property);
             unitOfWork.Save();
             Console.WriteLine("[{0}] - Property created successfully", DateTime.Now);
             Console.WriteLine(string.Empty);
 
             Console.WriteLine("[{0}] - Creating new property feature, without parent property", DateTime.Now);
-            unitOfWork.Repository<PropertyFeature>().InsertGraph(CreateTestPropertyFeature());
+            unitOfWork.Repository<PropertyFeature>().Insert(CreateTestPropertyFeature());
             unitOfWork.Save();
             Console.WriteLine("[{0}] - Property feature created successfully", DateTime.Now);
             Console.WriteLine(string.Empty);
 
             Console.WriteLine("[{0}] - Creating new property feature, without parent property", DateTime.Now);
             property.State = ObjectState.Modified;
-            unitOfWork.Repository<PropertyFeature>().InsertGraph(CreateTestPropertyFeature(property));
+            unitOfWork.Repository<PropertyFeature>().Insert(CreateTestPropertyFeature(property));
             unitOfWork.Save();
             Console.WriteLine("[{0}] - Property feature created successfully", DateTime.Now);
             Console.WriteLine(string.Empty);
 
             Console.WriteLine("[{0}] - Creating new property imange, without parent property", DateTime.Now);
-            unitOfWork.Repository<PropertyImage>().InsertGraph(CreateTestPropertyImage());
+            unitOfWork.Repository<PropertyImage>().Insert(CreateTestPropertyImage());
             unitOfWork.Save();
             Console.WriteLine("[{0}] - Property image created successfully", DateTime.Now);
             Console.WriteLine(string.Empty);
 
             Console.WriteLine("[{0}] - Creating new property image, without parent property", DateTime.Now);
             property.State = ObjectState.Modified;
-            unitOfWork.Repository<PropertyImage>().InsertGraph(CreateTestPropertyImage(property));
+            unitOfWork.Repository<PropertyImage>().Insert(CreateTestPropertyImage(property));
             unitOfWork.Save();
             Console.WriteLine("[{0}] - Property image created successfully", DateTime.Now);
             Console.WriteLine(string.Empty);
+
+            Console.WriteLine("[{0}] - Creating new complex graph", DateTime.Now);
+            owner = CreateTestOwner();
+            property = CreateTestProperty(owner);
+            var propertyImage = CreateTestPropertyImage(property);
+
+            unitOfWork.Repository<PropertyImage>().InsertGraph(propertyImage);
+            unitOfWork.Save();
+            Console.WriteLine("[{0}] - Complex graph created successfully", DateTime.Now);
+            Console.WriteLine(string.Empty);
+
 
             Console.WriteLine("Deleting test database");
             testContext.Database.Delete();
