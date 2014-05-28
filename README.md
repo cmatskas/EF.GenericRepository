@@ -5,7 +5,7 @@ A C# Generic repository implementation for Entity Framework.
 
 Yes, I know, there are other generic implementations out there, but what I found hard to achieve with the other ones is managing object graphs. You know, you have a student and you want to add new classes etc etc. Sooner or later, once you start moving outside the basic CRUD functionalities of atomic objects, you are faced with the issue of object state management, especially in case of disconnected entities.
 
-What this simple implementation attempts to do, is give the developers the option to manually manage object state in a safe and efficient way.
+What this simple implementation attempts to do, is give developers a safe and efficient way for managing object state in Entity Framework.
 
 ### How to use EF.GenericRepository ###
 
