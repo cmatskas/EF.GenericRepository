@@ -5,7 +5,16 @@ A C# Generic repository implementation for Entity Framework.
 
 Yes, I know, there are other generic implementations out there, but what I found hard to achieve with the other ones is managing object graphs. You know, you have a student and you want to add new classes etc etc. Sooner or later, once you start moving outside the basic CRUD functionalities of atomic objects, you are faced with the issue of object state management, especially in case of disconnected entities.
 
-What this simple implementation attempts to do, is give developers a safe and efficient way for managing object state in Entity Framework.
+What this simple implementation attempts to do, is give developers a safe and efficient way for managing object state in Entity Framework. The generic repository comes with a UnitOfWork class which is your main class for querying and interacting with the database. Since it is a proper UoW implementation, operations can be bundled together so you don't have to call Save() per CRUD action. 
+
+For example the following operations can be performed before calling Save(): 
+ - pull an entity
+ - perform some updates to its properties 
+ - add an item in the collection
+ - call Save() to persist in the database
+
+This will make your code more efficient and will reduce the calls to the database. Win-win!
+ 
 
 ### How to use EF.GenericRepository ###
 
@@ -57,7 +66,7 @@ Once you add the binary to your solution, you need to implement your ```DbContex
         }
     }
 
-The concrete context needs to derive from ```DbContext``` and implement the ```IDbContext```, which is part of the EF.GenericRepository project. The context constructor accepts either a default connection string or a user specified one. In addition, it exposes the connection string so that you can easily access it in your unit/integration tests.
+The concrete context needs to derive from ```DbContext``` and implement the ```IDbContext``` interface, which is part of the EF.GenericRepository project. The context constructor accepts either a "Default" connection string, which can be defined in or a user specified one. In addition, it exposes the connection string so that you can easily access it in your unit/integration tests.
 
 ### 1.2 Basic POCO example with EF Code-First ###
 
@@ -138,7 +147,7 @@ This is one of the classes in the data model. As long as any class derives from 
     
     
 
-For more examples on how to use the code, head to the ```EF.GenericRepository.Test```.
+For more examples on how to use the code, you can have a look in the ```EF.GenericRepository.Test``` or head to my blog post where I explain in a bit more detail the thinking behind this project - [link](https://cmatskas.com/my-first-nuget-package-is-live/)
 
 
 
