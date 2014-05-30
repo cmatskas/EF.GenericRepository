@@ -3,9 +3,7 @@ EF.GenericRepository
 
 A generic repository for Entity Framework written in C#.
 
-**Build Status**
-
-[![Build status](https://ci.appveyor.com/api/projects/status/3msbtitrfha8jskn)](https://ci.appveyor.com/project/cmatskas/ef-genericrepository)
+**Build Status** : [![Build status](https://ci.appveyor.com/api/projects/status/3msbtitrfha8jskn)](https://ci.appveyor.com/project/cmatskas/ef-genericrepository)
 
 Yes, I know, there are other generic implementations out there, but what I found hard to achieve with the other ones is managing object graphs. You know, you have a student and you want to add new classes etc etc. Sooner or later, once you start moving outside the basic CRUD functionalities of atomic objects, you are faced with the issue of object state management, especially in case of disconnected entities.
 
